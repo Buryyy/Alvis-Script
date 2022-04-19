@@ -21,8 +21,8 @@ Currently this language is **not** ready to use.
 ```csharp
 
 var options = new ScriptEngineOptionsBuilder()
-.WithWorkingDirectory(Path.Combine(Environment.CurrentDirectory, "scripts"))
-.Build(); //Executes scripts at running directory/scripts.
+.WithWorkingDirectory(Path.Combine(Environment.CurrentDirectory, "scripts"))//Executes scripts at "running directory/scripts".
+.Build(); 
 var engine = new ScriptEngine(options); //Include options with engine.
 
 //Executing a script:
