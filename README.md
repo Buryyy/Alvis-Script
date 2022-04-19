@@ -22,7 +22,7 @@ Currently this language is **not** ready to use.
 
 var options = new ScriptEngineOptionsBuilder()
 .WithWorkingDirectory(Path.Combine(Environment.CurrentDirectory, "scripts"))
-.Build((); //Executes scripts at running directory/scripts.
+.Build(); //Executes scripts at running directory/scripts.
 var engine = new ScriptEngine(options); //Include options with engine.
 
 //Executing a script:
