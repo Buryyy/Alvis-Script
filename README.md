@@ -10,8 +10,6 @@ Scripting language made for game server backend scripting such as chat dialogues
 - Fluent engine builder
 - Run natively with C# 
 
-## Execute script with C#
-
 
 ## Status
 
